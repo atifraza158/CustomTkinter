@@ -29,5 +29,9 @@ button1.pack(side='left', padx=10, pady=20)
 button1 = ttk.Button(window, text="Button 8", bootstyle = 'danger')
 button1.pack(side='left', padx=10, pady=20)
 
+# Text Widget with ttkbootstrap
+text = ttk.Text(window)
+text.pack(side='bottom')
+
 
 window.mainloop()
